@@ -20,6 +20,8 @@ public class Author {
     private String username;
     @JsonIgnore
     private String password;
+    @Version
+    private Long version;
 
 
     @OneToMany
